@@ -298,26 +298,26 @@
 					<h2>Contact Us</h2>
 					<p class="lead">Do you have any questions or concerns? Contact us directly</p>
 				</div>
-				<form action="" class="row g-3" method="POST" data-netlify="true">
+				<form action="" name='contactusform' class="row g-3" method="POST" data-netlify="true">
 					<div class="col-md-6">
 						<label for="firstName" class='form-label'>First Name</label>
-						<input type="text" class="form-control" name="" id="firstName" required>
+						<input type="text" class="form-control" name="firstName" id="firstName" required>
 					</div>
 					<div class="col-md-6">
 						<label for="lastName" class='form-label'>Last Name</label>
-						<input type="text" class="form-control" name="" id="lastName" required>
+						<input type="text" class="form-control" name="lastName" id="lastName" required>
 					</div>
 					<div class="col-8">
 						<label for="emailInfo" class='form-label'>E-mail</label>
-						<input type="email" class='form-control' id='emailInfo' required>
+						<input type="email" name='email' class='form-control' id='emailInfo' required>
 					</div>
 					<div class="col-md-4">
 						<label for="phoneNumber" class='form-label'>Phone Number</label>
-						<input type="text" class='form-control' id='phoneNumber' placeholder="+1 (503) 888-888">
+						<input type="text" name='phoneNumber' class='form-control' id='phoneNumber' placeholder="+1 (503) 888-888">
 					</div>
 					<div class="col-md-12">
 						<label for="comments" class='form-label'> Comments, questions?</label>
-						<textarea name="" class='form-control' id="comments" cols="30" rows="3"></textarea>
+						<textarea name="comments" class='form-control' id="comments" cols="30" rows="3"></textarea>
 					</div>
 					<div class="col-md-12">
 						<button type='submit' class='btn btn-primary'>Submit</button>
